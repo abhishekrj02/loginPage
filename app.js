@@ -21,4 +21,5 @@ app.use('/', (req,res) => {
         data: 'JWTauth server'
     })
 })
+app.all("*","Oops something went wrong!!")
 
